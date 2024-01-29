@@ -51,7 +51,7 @@ st.image(img, caption="BARINMA VE YAPIM İŞLERİ GENEL MÜDÜRLÜĞÜ",clamp=Fa
 
 tokenizer = AutoTokenizer.from_pretrained("savasy/bert-base-turkish-squad")
 model = AutoModelForQuestionAnswering.from_pretrained("savasy/bert-base-turkish-squad")
-nlp=pipeline("question-answering", model=model, tokenizer=tokenizer)
+nlp = pipeline("question-answering", model=model, tokenizer=tokenizer)
 
 def fatura_analiz(fatura_liste):
     text = ""
