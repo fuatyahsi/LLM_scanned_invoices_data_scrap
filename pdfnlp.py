@@ -98,7 +98,7 @@ with st.sidebar:
         password = st.text_input("Kullanıcı Şifresi", placeholder="*********", type="password",key=2)
         login_button = st.form_submit_button("Login")
         
-nlp = pickle.load(open("nlp","rb"))
+
 fatura_num = ""
     
     
