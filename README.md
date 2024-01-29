@@ -1,1 +1,1 @@
-Data extraction from formal invoice documents using a LLM
+Data extraction from a formal invoice documents using an LLM -tur-
